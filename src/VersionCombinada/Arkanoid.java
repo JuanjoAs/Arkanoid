@@ -38,7 +38,7 @@ public class Arkanoid extends Canvas {
 	
 	// Fase activa en el juego
 	Fase faseActiva = null;
-	Fase fases[] = new Fase[] { new Fase01(),new Fase04(),  new Fase03() };
+	Fase fases[] = new Fase[] { new Fase01(),new Fase02(),  new Fase03() ,  new Fase04() };
 	int numFase = 0;
 	// Estrategia de Doble Buffer
 	private BufferStrategy strategy;
